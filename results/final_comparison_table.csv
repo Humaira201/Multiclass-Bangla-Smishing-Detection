@@ -1,0 +1,8 @@
+model,accuracy,macro_f1,note
+TF-IDF + Logistic Regression (text only),0.8951612903225806,0.8932539682539682,"This project, 1253-message dataset (1002/125/126 split)"
+TF-IDF + Structured Features,0.9516129032258064,0.9499617530177802,"This project, 1253-message dataset (1002/125/126 split)"
+BanglaBERT (dual-input: text+structured),0.9682539682539684,0.9667893436001528,"This project, 1253-message dataset (1002/125/126 split)"
+BanglaBERT (dual-input) - FINAL leakage-free,0.967741935483871,0.9662557968481184,"This project, 1253-message dataset (1002/125/126 split)"
+BERT + Char-CNN Hybrid (published),0.9847,,"3-class, ~2287 messages, different dataset"
+BanglaBERT + XGBoost / NirapodBarta (published),,,"Multiclass, BanglaBarta dataset (Mendeley) — check paper for exact reported metric"
+BiLSTM-based (published),,,Check paper for exact reported metric
